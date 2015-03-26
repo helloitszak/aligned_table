@@ -23,7 +23,6 @@ Or install it yourself as:
 ```ruby
 at = AlignedTable.new
 at.title = "My Title"
-at.separator = " | "
 at.rows = [
   ["My Cool Column", "Some data"],
   ["More data", "Info"]
@@ -44,7 +43,7 @@ My Cool Column Some data
 ```ruby
 at = AlignedTable.new
 at.title = "My Title"
-
+at.separator = " | "
 at.rows = [
   ["My Cool Column", "Some data"],
   ["More data", "Info"]
